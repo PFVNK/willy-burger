@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html {
+  background-color: #181818;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* NAVBAR */
+.navbar-container {
+  background-color: #181818;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-brand {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link:hover {
+  color: tomato;
 }
+
+
+/* BANNER */
+.banner-container {
+  border-top: solid 3px red;
+  border-bottom: solid 3px red;
+  box-shadow: inset 0 0 20px red, 0 0 20px red;
+  background-color: #101010;
+  height: 70vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-banner {
+  /* border: solid purple; */
+  height: 70vh;
+  display: flex;
+}
+
+.banner-banner img:nth-child(1) {
+  margin-left: 7px;
+  width: 1000px;
+}
+
+.banner-banner img:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.banner-banner img:nth-child(3) {
+  margin-right: 50px;
+}
+
+/* .banner-banner img:nth-child(1) {
+  width: 70vw;
+} */

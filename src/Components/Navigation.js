@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { Link } from 'react-router-dom'
 
 import '../App.css'
 
@@ -32,7 +33,7 @@ function Navigation() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Home</NavLink>
+              <NavLink tag={Link} to='/'>Home</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Get To Us</NavLink>
@@ -42,10 +43,10 @@ function Navigation() {
                 Online Menu
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                <DropdownItem tag={Link} to='/menu'>
                   Willy-Burger #1 - Beaumont
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem tag={Link} to='/menu'>
                   Willy-Burger #2 - Katy
                 </DropdownItem>
               </DropdownMenu>

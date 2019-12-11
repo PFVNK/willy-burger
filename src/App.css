@@ -7,6 +7,9 @@ html {
 /* NAVBAR */
 .navbar-container {
   background-color: #181818;
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 1.2em;
+  ;
 }
 
 .navbar-brand {
@@ -73,6 +76,7 @@ html {
 
 .social-locations {
   margin-right: 15px;
+  font-family: 'Josefin Slab', serif;
 }
 
 .social-locations-container h1 {
@@ -104,6 +108,17 @@ html {
   padding: 30px 130px;
 }
 
+.welcome-message h1 {
+  font-family: 'Fontdiner Swanky', cursive;
+}
+
+.welcome-message p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.1em;
+  margin-top: 20px;
+  ;
+}
+
 .welcome-social {
   width: 50vw;
   /* border: solid red; */
@@ -115,7 +130,7 @@ html {
 
 .welcome-social img {
   /* border: solid blue; */
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .welcome-social iframe {

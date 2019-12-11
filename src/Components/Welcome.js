@@ -1,6 +1,6 @@
 import React from 'react'
 
-import tripadvisorexcellence from '../tripadvisorexcellence.png'
+import tripadvisorexcellence from '../tripadvisorwhite.png'
 import airstream from '../airstream-banner.png'
 
 function Welcome() {

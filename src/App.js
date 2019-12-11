@@ -5,6 +5,7 @@ import Navigation from './Components/Navigation'
 import Homepage from './Components/Homepage'
 import Welcome from './Components/Welcome'
 import Menu from './Components/Menu'
+import Promotion from './Components/Promotion'
 
 import './App.css';
 
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path='/menu'>
           <Menu />
+        </Route>
+        <Route path='/' exact>
+          <Promotion />
         </Route>
       </div>
     </Router>

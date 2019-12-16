@@ -197,3 +197,36 @@ html {
   font-size: 1.5em;
   ;
 }
+
+
+/* FOOTER */
+.footer-container {
+  margin-bottom: 20px;
+}
+
+.footer-container footer {
+  background-color: #181818;
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+.footer-legal {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-legal p {
+  margin: 0;
+}
+
+.footer-social {
+  width: 30%;
+}
+
+.footer-social a {
+  margin: 0 8px;
+}

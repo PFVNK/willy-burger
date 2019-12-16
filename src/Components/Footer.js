@@ -5,15 +5,14 @@ import tripadvisor from '../tripadvisor.png'
 import foursquare from '../foursquare.png'
 import yelp from '../yelp.png'
 
-function Social() {
+function Footer() {
   return (
-    <div className='social-container'>
-      <div className='social-locations-container'>
-        <div className='social-locations'>
-          <h1>Willy-Burger #1 - Beaumont (409) 892-3400</h1>
-          <h1>Willy-Burger #2 - Katy (832) 437-4566</h1>
+    <div className='footer-container'>
+      <footer>
+        <div className="footer-legal">
+          <p>Willy Burger, Inc. Copyright 2013. <a href="#">Privacy Policy</a>&nbsp;&nbsp;We have welcomed <script language="Javascript" src="http://www.willy-burger.com/counter.php?page=site"></script>195988 visitors since 03/17/2014.</p>
         </div>
-        <div className='social-icons'>
+        <div className="footer-social">
           <a href="https://www.facebook.com/pages/Willy-Burger/247444148601519" target="_blank">
             <img src={facebook} alt="facebook" />
           </a>
@@ -27,10 +26,10 @@ function Social() {
             <img src={foursquare} alt="foursquare" />
           </a>
         </div>
-      </div>
+      </footer>
     </div>
   )
 }
 
 
-export default Social
+export default Footer

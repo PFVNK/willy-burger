@@ -25,12 +25,11 @@ html {
 }
 
 
-
 /* BANNER */
 .banner-container {
-  border-top: solid 3px darkorange;
-  border-bottom: solid 3px darkorange;
-  box-shadow: inset 0 0 20px darkorange, 0 0 20px darkorange;
+  border-top: solid 3px #122a50;
+  border-bottom: solid 3px #122a50;
+  box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
   background-color: #101010;
   height: 70vh;
   width: 100%;
@@ -195,13 +194,32 @@ html {
 
 .promotion-video a {
   font-size: 1.5em;
-  ;
+}
+
+
+/* BURGER */
+.burger-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #181818;
+  color: white;
+  text-align: center;
+}
+
+.burger-gallery {
+  background-color: #181818;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
 }
 
 
 /* FOOTER */
 .footer-container {
   margin-bottom: 20px;
+  border: solid red;
 }
 
 .footer-container footer {

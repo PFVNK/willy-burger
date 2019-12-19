@@ -5,6 +5,7 @@ import tripadvisor from '../tripadvisor.png'
 import foursquare from '../foursquare.png'
 import yelp from '../yelp.png'
 
+
 function Footer() {
   return (
     <div className='footer-container'>

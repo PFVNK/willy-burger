@@ -6,6 +6,7 @@ import Homepage from './Components/Homepage'
 import Welcome from './Components/Welcome'
 import Menu from './Components/Menu'
 import Promotion from './Components/Promotion'
+import Burger from './Components/Burgers'
 import Footer from './Components/Footer'
 
 import './App.css';
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path='/' exact>
           <Promotion />
+        </Route>
+        <Route path='/burgers' exact>
+          <Burger />
         </Route>
         <Route path='/' exact>
           <Footer />

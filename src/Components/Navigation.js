@@ -36,6 +36,9 @@ function Navigation() {
               <NavLink tag={Link} to='/'>Home</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink tag={Link} to='/burgers'>Burgers</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">Get To Us</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>

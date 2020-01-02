@@ -7,9 +7,12 @@ html {
 /* NAVBAR */
 .navbar-container {
   background-color: #181818;
-  font-family: 'Fontdiner Swanky', cursive;
   font-size: 1.2em;
-  ;
+  font-family: 'Josefin Slab', serif;
+}
+
+.navbar-title {
+  font-family: 'Fontdiner Swanky', cursive;
 }
 
 .navbar-brand {
@@ -199,27 +202,64 @@ html {
 
 /* BURGER */
 .burger-container {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  /* height: 100vh;
+  width: 100vw; */
+  /* overflow-y: hidden; */
   background-color: #181818;
   color: white;
   text-align: center;
+  font-family: 'Josefin Slab', serif;
+  /* padding-top: 50px; */
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+.burger-container h1 {
+  margin-bottom: 50px;
 }
 
 .burger-gallery {
   background-color: #181818;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 100vh;
-  width: 100vw;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
+  /* grid-gap: 1rem;
+  grid-auto-flow: dense; */
+  /* height: 100vh;
+  width: 100vw; */
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.burger-gallery a {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.burger-gallery img {
+  border: solid white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.burger-gallery img:hover {
+  transform: scale(1.15);
 }
 
 
 /* FOOTER */
 .footer-container {
   margin-bottom: 20px;
-  border: solid red;
 }
 
 .footer-container footer {

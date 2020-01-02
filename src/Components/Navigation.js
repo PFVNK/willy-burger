@@ -28,7 +28,7 @@ function Navigation() {
   return (
     <div className='navbar-container'>
       <Navbar expand="md">
-        <NavbarBrand href="/">Willy Burger</NavbarBrand>
+        <NavbarBrand className='navbar-title' href="/">Willy Burger</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

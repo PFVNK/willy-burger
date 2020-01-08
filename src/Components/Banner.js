@@ -8,9 +8,9 @@ function Banner() {
   return (
     <div className='banner-container'>
       <div className='banner-banner'>
-        <img src={willyburger} alt="" />
-        <img src={willyburgeropen} alt="" />
-        <img src={willyburgerlogo} alt="" />
+        <img src={willyburger} alt="willy burger and onion rings" />
+        <img src={willyburgeropen} alt="willy burger now open" />
+        <img src={willyburgerlogo} alt="willy burger sign" />
       </div>
     </div>
   )

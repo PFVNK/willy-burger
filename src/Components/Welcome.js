@@ -1,6 +1,7 @@
 import React from 'react'
 
 import tripadvisorexcellence from '../tripadvisorwhite.png'
+import airstreamtrailer from '../airstream.png'
 import airstream from '../airstream-banner.png'
 
 function Welcome() {
@@ -16,6 +17,7 @@ function Welcome() {
           <p>Come see us, we the “real deal”…….ummmmhmmm.</p>
           <h5>Peace, Willy</h5>
         </p>
+        <img src={airstreamtrailer} alt="picture of airstream trailer" />
         <img src={airstream} alt="rent the airstream" />
       </div>
       <div className='welcome-social'>

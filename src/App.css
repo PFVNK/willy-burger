@@ -27,6 +27,10 @@ html {
   color: tomato;
 }
 
+.navbar-toggler .line {
+  background-color: white
+}
+
 
 /* BANNER */
 .banner-container {

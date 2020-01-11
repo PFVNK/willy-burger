@@ -683,7 +683,7 @@ html {
 
 .promotion-image img {
   /* width: 60vw; */
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .promotion-blurb {
@@ -729,7 +729,7 @@ html {
 
 @media (max-width: 850px) {
   .promotion-image img {
-    width: 85vw;
+    width: 95vw;
   }
 
   .promotion-container h1 {
@@ -743,7 +743,7 @@ html {
   }
 
   .promotion-video video {
-    width: 60vw;
+    width: 80vw;
   }
 }
 

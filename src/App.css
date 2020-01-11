@@ -836,3 +836,22 @@ html {
 .footer-social a {
   margin: 0 8px;
 }
+
+@media (max-width: 650px) {
+  .footer-container footer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer-social {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    margin-bottom: 10px;
+    ;
+  }
+
+  .footer-legal {
+    width: 80vw;
+  }
+}

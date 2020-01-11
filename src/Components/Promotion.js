@@ -12,7 +12,7 @@ export default function Promotion() {
         <h1>...as seen on "The Texas Bucket List"</h1>
       </div>
       <div className='promotion-video'>
-        <div>
+        <div className='promotion-video-card'>
           <video className="promotion-video-one" preload="auto" poster="http://www.willy-burger.com/media/TTBL_Episode24.png" controls>
             <source src="http://www.willy-burger.com/media/TTBL_Episode24.mp4" type="video/mp4" />
             <source src="http://www.willy-burger.com/media/TTBL_Episode24.flv" type="video/flv" />
@@ -23,7 +23,7 @@ export default function Promotion() {
             <a href="http://thetexasbucketlist.com">The Texas Bucket List</a>
           </div>
         </div>
-        <div>
+        <div className='promotion-video-card'>
           <video className="promotion-video-two" preload="auto" poster="http://www.willy-burger.com/media/TTBL_Final.png" controls>
             <source src="http://www.willy-burger.com/media/TTBL_Final.mp4" type="video/mp4" />
             <source src="http://www.willy-burger.com/media/TTBL_Final.flv" type="video/flv" />

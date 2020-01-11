@@ -683,6 +683,7 @@ html {
 
 .promotion-image img {
   /* width: 60vw; */
+  margin-bottom: 80px;
 }
 
 .promotion-blurb {
@@ -699,6 +700,11 @@ html {
   color: white;
 }
 
+.promotion-video-card {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .promotion-video-text {
   font-family: 'Josefin Slab', serif;
   text-align: center;
@@ -707,6 +713,38 @@ html {
 
 .promotion-video a {
   font-size: 1.5em;
+}
+
+@media (max-width: 1350px) {
+  .promotion-video video {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .promotion-video video {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .promotion-image img {
+    width: 85vw;
+  }
+
+  .promotion-container h1 {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 650px) {
+  .promotion-video {
+    flex-direction: column;
+  }
+
+  .promotion-video video {
+    width: 60vw;
+  }
 }
 
 

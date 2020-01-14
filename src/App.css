@@ -657,21 +657,38 @@ html {
 
 /* MENU */
 .menu-container {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  flex-direction: column;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  /* background-color: #181818; */
 }
 
-.menu-menu1 img {
-  height: 100%;
-  width: 100vw;
+.menu-menu {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+
+.menu-item {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 20rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+/* .menu-menu1 img {
+  height: 100px;
+  width: 100px;
 }
 
 .menu-menu2 img {
-  height: 100%;
-  width: 100vw;
-}
+  height: 100px;
+  width: 100px;
+} */
 
 
 /* PROMOTION */

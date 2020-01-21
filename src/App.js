@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navigation from './Components/Navigation'
 import Homepage from './Components/Homepage'
 import Welcome from './Components/Welcome'
+import GetToUs from './Components/GetToUs'
 import Menu from './Components/Menu'
 import Promotion from './Components/Promotion'
 import Burger from './Components/Burgers'
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path='/' exact>
           <Welcome />
+        </Route>
+        <Route path='/gettous' exact>
+          <GetToUs />
         </Route>
         <Route path='/menu'>
           <Menu />

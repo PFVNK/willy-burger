@@ -3,6 +3,7 @@ import React from 'react'
 import willyburger from '../willyburgerburger.png'
 import willyburgerlogo from '../willyburgerlogo.png'
 import willyburgeropen from '../WB2KatyOpen.gif'
+import headertop from '../header_top.png'
 
 function Banner() {
   return (

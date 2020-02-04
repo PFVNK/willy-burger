@@ -6,13 +6,14 @@ html {
 
 /* NAVBAR */
 .navbar-container {
-  background-color: #181818;
+  background-color: white;
   font-size: 1.2em;
   font-family: 'Josefin Slab', serif;
 }
 
 .navbar-title {
   font-family: 'Fontdiner Swanky', cursive;
+  color: #181818 !important;
 }
 
 .navbar-brand {
@@ -20,7 +21,7 @@ html {
 }
 
 .nav-link {
-  color: white;
+  color: #181818 !important;
 }
 
 .nav-link:hover {
@@ -31,22 +32,34 @@ html {
   background-color: white
 }
 
+.navbar-title {
+  color: red;
+}
+
 
 /* BANNER */
 .banner-container {
   border-top: solid 3px #122a50;
   border-bottom: solid 3px #122a50;
   box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-  background-color: #101010;
+  background-color: #66b2e0;
   height: 70vh;
   width: 100%;
   /* overflow: hidden; */
+}
+
+.banner-background {
+  width: 100%;
+  height: 70vh;
+  position: absolute;
 }
 
 .banner-banner {
   height: 70vh;
   display: flex;
   position: relative;
+  /* background-image: url("header_background.png"); */
+  /* background-position: left 100%; */
 }
 
 .banner-banner img:nth-child(1) {
@@ -75,10 +88,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 60vh;
     width: 100%;
     /* overflow: hidden; */
@@ -117,10 +126,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 50vh;
     width: 100%;
     /* overflow: hidden; */
@@ -159,10 +164,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 40vh;
     width: 100%;
     /* overflow: hidden; */
@@ -201,10 +202,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 30vh;
     width: 100%;
     /* overflow: hidden; */
@@ -243,10 +240,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 25vh;
     width: 100%;
     /* overflow: hidden; */
@@ -285,10 +278,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 20vh;
     width: 100%;
     /* overflow: hidden; */
@@ -327,10 +316,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 20vh;
     width: 100%;
     /* overflow: hidden; */
@@ -369,10 +354,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 20vh;
     width: 100%;
     /* overflow: hidden; */
@@ -411,10 +392,6 @@ html {
 
   /* BANNER */
   .banner-container {
-    border-top: solid 3px #122a50;
-    border-bottom: solid 3px #122a50;
-    box-shadow: inset 0 0 20px #122a50, 0 0 20px #122a50;
-    background-color: #101010;
     height: 20vh;
     width: 100%;
     /* overflow: hidden; */
@@ -452,8 +429,8 @@ html {
 
 /* SOCIAL */
 .social-container {
-  background-color: #181818;
-  color: white;
+  background-color: white;
+  color: #181818;
   display: flex;
   justify-content: flex-end;
   padding-top: 15px;
@@ -546,8 +523,8 @@ html {
 .welcome-container {
   height: 100%;
   width: 100%;
-  background-color: #181818;
-  color: white;
+  background-color: white;
+  color: #181818;
   display: flex;
 }
 
@@ -581,6 +558,11 @@ html {
 
 .welcome-social iframe {
   height: 700px;
+}
+
+.welcome-social img.facebook-logo {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 1250px) {
@@ -695,7 +677,7 @@ html {
 
 /* PROMOTION */
 .promotion-container {
-  background-color: #181818;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -712,7 +694,7 @@ html {
 .promotion-blurb {
   font-family: 'Fontdiner Swanky', cursive;
   width: 100%;
-  color: white;
+  color: #181818;
   padding: 10px 30px;
 }
 
@@ -720,7 +702,7 @@ html {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
-  color: white;
+  color: #181818;
 }
 
 .promotion-video-card {
@@ -834,8 +816,8 @@ html {
 }
 
 .footer-container footer {
-  background-color: #181818;
-  color: white;
+  background-color: white;
+  color: #181818;
   display: flex;
   width: 100%;
 }

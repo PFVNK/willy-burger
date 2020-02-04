@@ -1,8 +1,9 @@
 import React from 'react'
 
-import tripadvisorexcellence from '../tripadvisorwhite.png'
+import tripadvisorexcellence from '../tripadvisorexcellence.png'
 import airstreamtrailer from '../airstream.png'
 import airstream from '../airstream-banner.png'
+import facebooklogo from '../facebook_logo.png'
 
 function Welcome() {
   return (
@@ -22,6 +23,7 @@ function Welcome() {
       </div>
       <div className='welcome-social'>
         <img src={tripadvisorexcellence} alt="trip advisor excellence award" />
+        <img className='facebook-logo' src={facebooklogo} alt="facebook logo" />
         <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FWilly-Burger%2F247444148601519&amp;width=292&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" style={{ overflow: 'hidden' }} allowtransparency="true" frameborder="0"></iframe>
       </div>
     </div>

@@ -11,8 +11,8 @@
     "reactstrap": "^8.2.0"
   },
   "engines": {
-    "npm": "6.4.1",
-    "node": "10.15.3"
+    "npm": "7.6.1",
+    "node": "15.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
